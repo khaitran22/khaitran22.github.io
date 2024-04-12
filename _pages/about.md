@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student at The University of Queensland, Australia
+subtitle: Ph.D. Student at The University of Queensland, Australia.
 
 profile:
   align: right
@@ -10,8 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Desk 34 - Room 520</p>
-    <p>78 Staff House Rd, St Lucia</p>
-    <p>Brisbane, Queesland, Australia 4067</p>
+    <p>78 Staff House Rd, St Lucia, QLD, Australia 4067</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
