@@ -7,7 +7,7 @@ subtitle: Ph.D. Student at The University of Queensland, Australia. Powered by c
 profile:
   align: right
   image: avatar.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Desk 34 - Room 520</p>
     <p>78 Staff House Rd, St Lucia, QLD, Australia 4067</p>
