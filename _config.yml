@@ -227,6 +227,7 @@ exclude:
   - _pages/profiles.md
   - _pages/dropdown.md
   - _example_posts/
+  - _example_projects/
   - purgecss.config.js
   - README.md
   - readme_preview/
