@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student at The University of Queensland, Australia. Powered by coffee.
+subtitle: Ph.D. Student under <a href='https://eecs.uq.edu.au/'>EECS @ UQ, Australia</a>. Powered by coffee.
 
 profile:
   align: right
