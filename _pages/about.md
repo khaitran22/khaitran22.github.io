@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Ph.D. Candidate</b> under <a href='https://eecs.uq.edu.au/'>EECS @ UQ, Australia</a>. Powered by coffee.
+subtitle: <strong>Ph.D. Candidate</strong> under <a href='https://eecs.uq.edu.au/'>EECS @ UQ, Australia</a>. Powered by coffee.
 
 profile:
   align: right
