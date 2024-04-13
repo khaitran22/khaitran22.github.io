@@ -1,18 +1,14 @@
 ---
 layout: post
 title: A long announcement with details
-date: 2021-12-24 12:00:00-0400
+date: 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-I received an admission offer for Ph.D. programm at the University of Queensland for the next 4 years!
+Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
 
 ---
-
-I was thrilled to announce that UQ offered me the admission to the Ph.D. programm at the university!
-
-My Ph.D. topic is **"Information Extraction from Large-scale Low Quality Data"**.
 
 Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
 
