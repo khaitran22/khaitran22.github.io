@@ -27,7 +27,7 @@
       "url": "https://uq.edu.au/",
       "area": "",
       "studyType": "Doctor of Philosophy",
-      "startDate": "2022-01-01",
+      "startDate": "2022",
       "endDate": "Current"
     },
     {
@@ -36,8 +36,8 @@
       "url": "https://uq.edu.au/",
       "area": "Information Technology",
       "studyType": "Master of Information Technology",
-      "startDate": "2020-02-24",
-      "endDate": "2021-12-16",
+      "startDate": "2020",
+      "endDate": "2021",
       "score": "6.63/7"
     },
     {
@@ -46,8 +46,8 @@
       "url": "https://ueh.edu.vn/en/",
       "area": "Business Administration",
       "studyType": "Bachelor of Business Administration",
-      "startDate": "2015-09-15",
-      "endDate": "2019-08-16",
+      "startDate": "2015",
+      "endDate": "2019",
       "score": "7.45/10"
     }
   ],
