@@ -23,7 +23,7 @@
   "education": [
     {
       "institution": "The University of Queensland",
-      "location": "Brisbane, Australia",
+      "location": "Australia",
       "url": "https://uq.edu.au/",
       "area": "",
       "studyType": "Doctor of Philosophy",
@@ -32,7 +32,7 @@
     },
     {
       "institution": "The University of Queensland",
-      "location": "Brisbane, Australia",
+      "location": "Australia",
       "url": "https://uq.edu.au/",
       "area": "Information Technology",
       "studyType": "Master of Information Technology",
@@ -42,7 +42,7 @@
     },
     {
       "institution": "University of Economics Ho Chi Minh City (UEH)",
-      "location": "Ho Chi Minh City, Vietnam",
+      "location": "Vietnam",
       "url": "https://ueh.edu.vn/en/",
       "area": "Business Administration",
       "studyType": "Bachelor of Business Administration",
