@@ -1,8 +1,6 @@
 github_users:
   - khaitran22
 
-repo_description_lines_max: 2
-
 github_repos:
   - khaitran22/CDER
   - khaitran22/DM2T
