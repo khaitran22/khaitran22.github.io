@@ -128,7 +128,7 @@
     },
     {
       "name": "Data Science & Machine Learning",
-      "icon": "fa-solid fa-microchip-ai",
+      "icon": "fa-solid fa-robot",
       "keywords": [
         "PyTorch",
         "Hugging Face Libraries",
