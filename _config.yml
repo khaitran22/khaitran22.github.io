@@ -232,7 +232,6 @@ exclude:
   - _pages/profiles.md
   - _pages/dropdown.md
   - _pages/projects.md
-  - _pages/blog.md
   - _example_posts/
   - _example_projects/
   - _example_news/
