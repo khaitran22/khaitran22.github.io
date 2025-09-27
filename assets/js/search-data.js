@@ -95,16 +95,21 @@ ninja.data = [{
             window.location.href = "/blog/2024/photo-gallery/";
           
         },
-      },{id: "books-chip-war-the-fight-for-the-world-39-s-most-critical-technology",
-          title: 'Chip War - The Fight for the World&amp;#39;s Most Critical Technology',
+      },{id: "books-chip-war",
+          title: 'Chip War',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/chip_war/";
-            },},{id: "books-",
-          title: '',
+            },},{id: "books-the-psychology-of-money",
+          title: 'The Psychology of Money',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/psychology_of_money/";
+            },},{id: "books-the-science-of-fear",
+          title: 'The Science of Fear',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/science_of_fear/";
             },},{id: "news-my-paper-entitled-improving-traffic-load-prediction-with-multi-modality-a-case-study-of-brisbane-was-accepted-by-ajcai-2022",
           title: 'My paper entitled “Improving Traffic Load Prediction with Multi-modality: A Case Study of...',
           description: "",
