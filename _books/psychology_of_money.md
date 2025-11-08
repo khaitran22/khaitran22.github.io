@@ -23,6 +23,8 @@ This book is honestly one of my all-time favorites, and it’s the one I always 
 
 Now, there are already tons of summaries out there, so I’m not going to repeat what you can easily Google. Instead, I just want to share a few things that really clicked with me.
 
+---
+
 ## Chapter 1: No One's Crazy
 > Your personal experiences with money make up maybe 0.00000000001% of what’s happened in the world, but maybe 80% of how you think the world works.
 
@@ -31,6 +33,8 @@ People’s experiences with money—and life in general—are shaped by so many 
 You probably know things about money that I don’t, and I probably know things you don’t. We’re moving through life with different beliefs, goals, and expectations—not because one of us is smarter or better informed, but simply because our lives have been shaped by different, yet equally convincing, experiences.
 
 This chapter made me stop and think about how differently people act in the exact same situation. It’s not random, everyone sees things through their own lens, shaped by whatever they’ve gone through. And since I don’t know their backstory, it doesn’t really make sense for me to judge whether their reaction is “right” or “wrong.” What feels wrong to me might be perfectly reasonable to them. That really reminded me how important it is to practice empathy. It helps you get why people behave the way they do, and it also makes it clearer who you vibe with and who you don’t.
+
+---
 
 ## Chapter 2: Luck & Risk
 > Nothing is as good or as bad as it seems.
