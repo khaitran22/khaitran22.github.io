@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-house-robber-ii-problem-leetcode-213",
+        },{id: "post-coin-toss-problem",
+        
+          title: "Coin Toss Problem",
+        
+        description: "My notes for the Coin Toss Problem",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/coin-toss-game/";
+          
+        },
+      },{id: "post-house-robber-ii-problem-leetcode-213",
         
           title: "House Robber II problem - Leetcode 213",
         
@@ -71,28 +82,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/leetcode-198/";
-          
-        },
-      },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
           
         },
       },{id: "books-chip-war",
