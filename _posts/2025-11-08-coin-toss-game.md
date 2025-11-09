@@ -119,12 +119,12 @@ $$
 
 If either $ S_1 $ or $ S_3 $ occurs, gambler $ A $ will either **definitely win** or **definitely lose**, respectively, regardless of the extra coin.
 
-However, if $ S_2 $ occurs, the outcome depends on the extra coin. In this case, gambler $ A $ wins if the extra coin shows heads. Since it’s a fair coin, this happens with probability $ 0.5 $. Therefore, the probability of $ A $ winning in this scenario is $ 0.5y $.
+However, if $ S_2 $ occurs, the outcome depends on the extra coin. In this case, gambler $ A $ wins if the extra coin shows heads. Since it’s a fair coin, this happens with probability $ 0.5 $. Therefore, the probability of $ A $ winning in this scenario is $ 0.5\mathbb{P}(S_2) = 0.5y $.
 
 Putting it all together, the total probability that $ A $ wins is:
 
 $$
-    x + 0.5y = x + 0.5(1 - 2x) = \frac{1}{2}
+    \mathbb{P}(S_1) + 0.5\mathbb{P}(S_2) = x + 0.5y = x + 0.5(1 - 2x) = \frac{1}{2}
 $$
 
 **Conclusion:**  
