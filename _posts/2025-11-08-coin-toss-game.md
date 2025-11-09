@@ -31,7 +31,7 @@ Let $h_A$, $h_B$ denote the number of heads obtained by $A$ and $B$ respectively
 - $0 \leq h_A \leq n+1$
 - $0 \leq h_B \leq n$
 
-With the simplified setup ($n=2$), I listed all possible combinations of $h_A$ and $h_B$ in a table, where each column corresponds to $h_A$ and each row corresponds to $h_B$:
+With the simplified setup ($n=2$), I listed all possible combinations of $h_A$ and $h_B$ in a table, where **each column corresponds to each $h_A$ value** and **each row corresponds to each $h_B$ value**:
 
 |       | **0** |  **1**  |  **2**  |  **3**  |
 |:-----:|:-----:|:-------:|:-------:|:-------:|
