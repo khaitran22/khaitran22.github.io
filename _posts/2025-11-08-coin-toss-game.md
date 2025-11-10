@@ -70,7 +70,7 @@ From the pattern observed:
 Adding them together gives:
 
 $$
-    n+(n-1)+(n-1)+...+2+1 = \frac{n\times(n+1)}{2}
+    n+(n-1)+(n-2)+...+2+1 = \frac{n\times(n+1)}{2}
 $$
 
 The total number of cells in the table is $n\times(n+1)$.
