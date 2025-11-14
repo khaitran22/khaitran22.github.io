@@ -125,8 +125,10 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # external_sources:
-#   - name: medium.com
-#     rss_url: https://medium.com/@al-folio/feed
+#   - name: notion.so
+#     posts:
+#       - url: https://www.notion.so/Transformer-Architecture-Math-Intuition-25d657c90a9280db94afe987fe02f605?source=copy_link
+#         published_date: 2025-11-13
 
 # -----------------------------------------------------------------------------
 # Collections

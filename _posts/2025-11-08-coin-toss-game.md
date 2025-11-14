@@ -62,23 +62,23 @@ $$
 With this intuition, we can now extend the reasoning to a general case with any arbitrary $n$.
 
 From the pattern observed:
-- The 1st row contains $n$ `A win` cells.
-- The 2nd row contains $n-1$ `A win` cells.
+- The 1st row contains $n+1$ `A win` cells.
+- The 2nd row contains $n$ `A win` cells.
 - ...
 - The $n^{th}$ row contains just $1$ `A win` cell.
 
 Adding them together gives:
 
 $$
-    n+(n-1)+(n-2)+...+2+1 = \frac{n\times(n+1)}{2}
+    (n+1)+n+(n-1)+...+2+1 = \frac{(n+1)\times(n+2)}{2}
 $$
 
-The total number of cells in the table is $n\times(n+1)$.
+The total number of cells in the table is $(n+1)\times(n+2)$ because we need to count when $h_A = 0$ and $h_B = 0$.
 
 Therefore, the probability that gambler $A$ gets more heads than $B$ is:
 
 $$
-    \mathbb{P}(\text{$A$ wins}) = \frac{\frac{n\times(n+1)}{2}}{n\times(n+1)} = \frac{1}{2}
+    \mathbb{P}(\text{$A$ wins}) = \frac{\frac{(n+1)\times(n+2)}{2}}{(n+1)\times(n+2)} = \frac{1}{2}
 $$
 
 In conclusion, regardless of the number of coins, gambler $A$ always has a **$50\%$ chance** of getting more heads than gambler $B$.
