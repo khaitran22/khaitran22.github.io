@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-coin-toss-problem",
+        },{id: "post-an-intuitive-note-about-transformers-architecture",
+        
+          title: "An Intuitive Note about Transformers Architecture",
+        
+        description: "My note to understand Transformers architecture intuitively.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/transformers-math-intuition/";
+          
+        },
+      },{id: "post-coin-toss-problem",
         
           title: "Coin Toss Problem",
         
