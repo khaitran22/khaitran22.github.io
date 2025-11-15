@@ -73,7 +73,7 @@ $$
     (n+1)+n+(n-1)+...+2+1 = \frac{(n+1)\times(n+2)}{2}
 $$
 
-The total number of cells in the table is $(n+1)\times(n+2)$ because we need to count when $h_A = 0$ and $h_B = 0$.
+The total number of cells in the table is $(n+1)\times(n+2)$.
 
 Therefore, the probability that gambler $A$ gets more heads than $B$ is:
 

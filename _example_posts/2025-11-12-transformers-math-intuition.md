@@ -6,63 +6,53 @@ description: My note to understand Transformers architecture intuitively.
 tags: nlp transformers ai
 categories: nlp
 related_posts: false
----
-At the time I write this blog, everyone is crazy about Large Language Models (LLMs), which have been built on Transformers architecture introduced in the paper [Attention is all you need](https://arxiv.org/abs/1706.03762) by Vaswani et al. in 2017.
-
-Also, I have extensively use BERT model during my PhD to develop information extractors, which also is built on Transformers architecture. However, I didn't have chance to intuitively 
-
+toc:
+  sidebar: left
 ---
 
-# 1. Definition:
+At the time of writing this blog, everyone is talking about Large Language Models (LLMs), most of which are built on the Transformer architecture introduced by Vaswani et al. in the 2017 paper [Attention is all you need](https://arxiv.org/abs/1706.03762).
 
-- An **advanced** deep learning architecture to **process sequential data** (e.g., text)
-- Introduced in the paper “Attention is all you need” by Vaswani et al. (NeurIPS’17)
-- Unlike RNN/LSTM, Transformer enables **processing sequential data in parallel** based solely on **attention mechanisms**
-- Transformer architecture **overcomes the challenges of RNN/LSTM**:
-    - First, ***vanishing and exploding gradients*** in RNN
-        - Gradients have to pass through multiple layers as the RNN processes data sequentially.
-        - [LSTM](https://www.bioinf.jku.at/publications/older/2604.pdf) and [GRU](https://arxiv.org/pdf/1406.1078) can’t fully address this problem in RNN.
-    - Second, RNN-based architectures have a ***slow training process***
-    - Third, RNNs and LSTMs ***struggle with long-range dependencies***
-        - Those models start to forget when processing long distances ([Zhao et al., 2020](https://proceedings.mlr.press/v119/zhao20c))
+I’ve also relied heavily on BERT throughout my PhD for building information extractors, and BERT itself is a Transformer-based model. This post is my attempt to intuitively break down how the Transformer architecture works.
 
 ---
 
-# 2. Model Architecture:
-
-![image.png](../assets/img/_posts_imgs/Transformer-Math-Intuition/image.png)
-
-## 2.1. Overall structure
-
-<aside>
-💡
-
-Transformer is an **encoder-decoder architecture** model.
-
-</aside>
-
----
-
-### 2.1.1. Encoder:
-
-- A stack of $N=6$ identical transformer blocks/layers
-- Each block/layer has **2 sub-blocks**:
-    - The 1st sub-block is a multi-head attention self-attention mechanism.
-    - The 2nd sub-block is a simple, position-wise fully connected feed-forward network.
-    - [Residual connection](https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html) is employed around each of the two sub-layers.
-    - Follow residual connection, [layer normalisation](https://arxiv.org/abs/1607.06450) is employed.
-
-### 2.1.2. Decoder:
-
-- A stack of $N=6$ identical transformer blocks/layers as the encoder
-- Unlike the encoder, the **decoder has a 3rd sub-layer**:
-    - A multi-head attention over the output of the encoder stack
-- Self-attention sub-layers are modified to prevent positions from attending to subsequent positions. This is called **Masked Self-attention**.
-- Output embeddings are offset by one position.
+# What is a Transformer?
+A few key points about the Transformer architecture:
+- A **deep learning model** designed to **process sequential data** such as text.
+- An **encoder–decoder architecture**.
+- Able to **process sequences in parallel** using **attention mechanisms**, unlike RNNs and LSTMs.
+- It **addresses several limitations** of RNNs and LSTMs:
+    - (1) ***Vanishing or exploding gradients*** due to sequential dependency in RNNs.
+        - Gradients must pass through many time steps.
+        - Even improved variants such as [LSTM](https://www.bioinf.jku.at/publications/older/2604.pdf) and [GRU](https://arxiv.org/pdf/1406.1078) can’t fully avoid this issue.
+    - (2) ***Slow training*** caused by the sequential nature of RNNs.
+    - (3) ***Difficulty modeling long-range dependencies*** and a tendency to forget information across long distances, as noted by [Zhao et al., 2020](https://proceedings.mlr.press/v119/zhao20c).
 
 ---
 
-## 2.2. Transformers Block [[1](https://arxiv.org/abs/2304.10557)]
+# Model Architecture
+{% include figure.liquid loading="eager" path="assets/img/_posts_imgs/Transformer-Math-Intuition/image.png" class="img-fluid rounded" zoomable=true %}
+
+### Encoder
+- Represented by the left block in Figure 1.
+- Consists of a stack of $N = 6$ identical Transformer layers.
+- Each layer contains **two sub-layers**:
+    - A multi-head self-attention mechanism.
+    - A position-wise fully connected feed-forward network.
+    - Each sub-layer is wrapped with a [residual connection](https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html).
+    - After every residual connection, [layer normalization](https://arxiv.org/abs/1607.06450) is applied.
+
+### Decoder
+- Represented by the right block in Figure 1.
+- Also consists of a stack of $N = 6$ identical Transformer layers.
+- Unlike the encoder, each decoder layer includes a **third sub-layer**:
+    - A multi-head attention mechanism over the encoder’s output.
+- The self-attention sub-layers use **masked self-attention** to prevent a position from attending to future positions.
+- Output embeddings are shifted by one position before prediction.
+
+---
+
+## Transformers Block [[1](https://arxiv.org/abs/2304.10557)]
 
 The transformer block comprises **two stages**:
 
@@ -79,7 +69,7 @@ The transformer block comprises **two stages**:
 
 ---
 
-### 2.2.1. Input Data Format
+### Input Data Format
 
 - Data (e.g., text words of image batches) of the transformer block is converted into a sequence of $N$ tokens $\boldsymbol{x}_n^{(0)}$ of dimension $D$.
 - Usually, the input is organised into a matrix $D\times N$.
@@ -90,7 +80,7 @@ Figure 1 illustrates the input format:
 
 Figure 1: The input to a transformer is $N$ vectors $x^{(0)}_n$ , which are each $D$ dimensional. These can be collected together into an array $X^{(0)}$.
 
-### 2.2.2. Stage 1: Self-attention across the sequence
+### Stage 1: Self-attention across the sequence
 
 **INPUT:**
 
@@ -221,7 +211,7 @@ Figure 3: Multi-head self-attention applies $H$ self-attention operations in par
 
 ---
 
-### 2.2.3. Stage 2: Multi-layer Perceptron across features
+### Stage 2: Multi-layer Perceptron across features
 
 **Motivation:**
 
@@ -259,7 +249,7 @@ Figure 3: Multi-head self-attention applies $H$ self-attention operations in par
 
 ---
 
-### 2.2.4. Residual Connection & Layer Normalisation
+### Residual Connection & Layer Normalisation
 
 **2.2.4.1. Residual Connection**
 
@@ -307,16 +297,15 @@ Figure 3: Multi-head self-attention applies $H$ self-attention operations in par
     
 
 **Schematic visualisation of the standard transformer block:**
-
-![Figure 4: The transformer block. This block can then be repeated $M$ times.](Transformer%20Architecture%20-%20Math%20&%20Intuition/transformer-block.png)
-
+{% include figure.liquid loading="eager" path="assets/img/_posts_imgs/Transformer-Math-Intuition/transformer-block.png" class="img-fluid rounded " zoomable=true %}
+<!-- ![Figure 4: The transformer block. This block can then be repeated $M$ times.](Transformer%20Architecture%20-%20Math%20&%20Intuition/transformer-block.png) -->
 Figure 4: The transformer block. This block can then be repeated $M$ times.
 
 ---
 
-## 2.3. Position Encoding
+## Position Encoding
 
-### 2.3.1. Motivation
+### Motivation
 
 - The Transformer architecture throws away the positional information:
     - This positional information is key in many problems, such as NLP or Vision Transformers.
@@ -326,7 +315,7 @@ Figure 4: The transformer block. This block can then be repeated $M$ times.
 
 ---
 
-### 2.3.2. Implemtation
+### Implemtation
 
 - In the Transformer, positional information is included directly into the embedding $X^{(0)}$.
     - E.g., by simply adding or concatenating the position embeddings.
@@ -334,18 +323,16 @@ Figure 4: The transformer block. This block can then be repeated $M$ times.
 
 ---
 
-### 2.3.3. Sinusoidal Position in Transformer
+### Sinusoidal Position in Transformer
 
 **Introduction:**
 
 - A positional information function based on the $\sin(x)$ and $\cos(x)$.
 - Particularly, the positional information function in the Transformer:
-    
-    ![image.png](Transformer%20Architecture%20-%20Math%20&%20Intuition/image%201.png)
-    
+    {% include figure.liquid loading="eager" path="assets/img/_posts_imgs/Transformer-Math-Intuition/image_1.png" class="img-fluid rounded " zoomable=true %}    
 
 ---
 
-# ACKNOWLEDGEMENT
+# Reference
 
 1. Turner, R. E. (2023). An introduction to transformers. *arXiv preprint arXiv:2304.10557*.
