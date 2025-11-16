@@ -185,6 +185,7 @@ exclude:
   - _example_posts/
   - _example_projects/
   - _example_news/
+  - _example_books/
   - purgecss.config.js
   - README.md
   - readme_preview/

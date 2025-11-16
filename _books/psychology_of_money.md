@@ -12,33 +12,84 @@ started: 2024-06-22
 finished: 2024-09-20
 released: 2020
 stars: 4.29
-goodreads_review: 55362487-the-psychology-of-money
+goodreads_review: 55362487
 status: Finished
+toc:
+  sidebar: left
 ---
 > "Reputation is invaluable. Freedom and independence are invaluable. Family and friends are invaluable. Being loved by those who you want to love you is invaluable. Happiness is invaluable. And your best shot at keeping these things is knowing when it’s time to stop taking risks that might harm them. Knowing when you have enough."
 >
 > *-- Morgan Housel*
 
-This book is honestly one of my all-time favorites, and it’s the one I always end up recommending to people. On the surface, it’s about money, but really it’s about life. Some of the lessons in there feel like things I’ll only truly get once I’m in my 40s or 50s.
-
-Now, there are already tons of summaries out there, so I’m not going to repeat what you can easily Google. Instead, I just want to share a few things that really clicked with me.
+Things to remember:
 
 ---
 
-## Chapter 1: No One's Crazy
-> Your personal experiences with money make up maybe 0.00000000001% of what’s happened in the world, but maybe 80% of how you think the world works.
+### Note #1.
+> **Go out of your way to find humility when things are going right and forgiveness/compassion when they go wrong.**
 
-People’s experiences with money—and life in general—are shaped by so many different factors. Think about it: we come from different generations, raised by parents with different incomes and values, in different parts of the world. Some of us were born into strong economies, others into struggling ones. We’ve faced different job markets, had different opportunities (and setbacks), and different amounts of luck. Naturally, all of that adds up to completely different lessons about how the world works. So what seems crazy to you might make perfect sense to me.
-
-You probably know things about money that I don’t, and I probably know things you don’t. We’re moving through life with different beliefs, goals, and expectations—not because one of us is smarter or better informed, but simply because our lives have been shaped by different, yet equally convincing, experiences.
-
-This chapter made me stop and think about how differently people act in the exact same situation. It’s not random, everyone sees things through their own lens, shaped by whatever they’ve gone through. And since I don’t know their backstory, it doesn’t really make sense for me to judge whether their reaction is “right” or “wrong.” What feels wrong to me might be perfectly reasonable to them. That really reminded me how important it is to practice empathy. It helps you get why people behave the way they do, and it also makes it clearer who you vibe with and who you don’t.
+Because it’s never as good or as bad as it looks. The world is big and complex. Luck and risk are both real and hard to identify. Do so when judging both yourself and others. Respect the power of luck and risk and you’ll have a better chance of focusing on things you can actually control. You’ll also have a better chance of finding the right role models.
 
 ---
 
-## Chapter 2: Luck & Risk
-> Nothing is as good or as bad as it seems.
+### Note #2.
+> **Less ego, more wealth**.
 
+---
 
+### Note #3.
+> **"Does this help me sleep at night?" is the best universal guidepost for all decisions.**
 
-*(continue...)*
+---
+
+### Note #4.
+> **Time is the most powerful force in investing.**
+
+It makes little things grow big and big mistakes fade away.
+
+---
+
+### Note #5.
+> **Become OK with a lot of things going wrong. You can be wrong half the time and still make a fortune, because a small minority of things account for the majority of outcomes.**
+
+You should be comfortable with a lot of stuff not working. That’s just how the world is. It is fine to have a large chunk of poor investments and a few outstanding ones. That’s usually the best-case scenario. Judging how you’ve done by focusing on individual investments makes winners look more brilliant than they were, and losers appear more regrettable than they should.
+
+---
+
+### Note #6
+> **Use money to gain control over your time. The ability to do what you want, when you want, with who you want, for as long as you want to, pays the highest dividend that exists in finance.**
+
+Not having control of your time is such a powerful and universal drag on happiness.
+
+---
+
+### Note #7
+> **Be nicer and less flashy.**
+
+No one is impressed with your possessions as much as you are. You might think you want a fancy car or a nice watch. But what you probably want is respect and admiration. And you’re more likely to gain those things through kindness and humility than horsepower and chrome.
+
+---
+
+### Note #8
+> **Save. Just save. You don’t need a specific reason to save.**
+
+Saving for things that are impossible to predict or define is one of the best reasons to save. Everyone’s life is a continuous chain of surprises. Savings that aren’t earmarked for anything in particular is a hedge against life’s inevitable ability to surprise the hell out of you at the worst possible moment.
+
+---
+
+### Note #9
+> **Define the cost of success and be ready to pay it.**
+
+Because nothing worthwhile is free.
+
+---
+
+### Note #10
+> **Worship room for error.**
+
+A gap between what could happen in the future and what you need to happen in the future in order to do well is what gives you endurance, and endurance is what makes compounding magic over time. Room for error often looks like a conservative hedge, but if it keeps you in the game it can pay for itself many times over.
+
+---
+
+### Note #11
+> **There is no single right answer; just the answer that works for you.**

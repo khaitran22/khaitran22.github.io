@@ -18,4 +18,5 @@ status: Finished
 > “World War II was decided by steel and aluminum, and followed shortly thereafter by the Cold War, which was defined by atomic weapons. The rivalry between the United States and China may well be determined by computing power.”
 > 
 > *-- Chris Miller*
+
 ---
