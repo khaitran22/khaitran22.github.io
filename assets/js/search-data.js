@@ -94,11 +94,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/psychology_of_money/";
-            },},{id: "books-the-science-of-fear",
-          title: 'The Science of Fear',
+            },},{id: "books-same-as-ever",
+          title: 'Same as Ever',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/science_of_fear/";
+              window.location.href = "/books/same_as_ever/";
             },},{id: "news-my-paper-entitled-improving-traffic-load-prediction-with-multi-modality-a-case-study-of-brisbane-was-accepted-by-ajcai-2022",
           title: 'My paper entitled “Improving Traffic Load Prediction with Multi-modality: A Case Study of...',
           description: "",
