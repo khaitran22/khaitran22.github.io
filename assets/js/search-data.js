@@ -99,6 +99,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/same_as_ever/";
+            },},{id: "books-the-world-for-sale",
+          title: 'The World for Sale',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_world_on_sale/";
             },},{id: "news-my-paper-entitled-improving-traffic-load-prediction-with-multi-modality-a-case-study-of-brisbane-was-accepted-by-ajcai-2022",
           title: 'My paper entitled “Improving Traffic Load Prediction with Multi-modality: A Case Study of...',
           description: "",
