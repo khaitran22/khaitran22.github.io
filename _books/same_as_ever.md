@@ -3,8 +3,8 @@ layout: book-review
 title: Same as Ever
 author: Morgan Housel
 cover: 
-olid: OL51724829M # use Open Library ID to fetch cover (if no `cover` is provided)
-isbn: 9780593791684 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+olid: # use Open Library ID to fetch cover (if no `cover` is provided)
+isbn: 0593332709 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: psychology
 tags: psychology
 buy_link:

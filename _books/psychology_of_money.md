@@ -3,8 +3,8 @@ layout: book-review
 title: The Psychology of Money
 author: Morgan Housel
 cover: 
-olid: OL29412746M # use Open Library ID to fetch cover (if no `cover` is provided)
-isbn: 9390166934 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+olid: # use Open Library ID to fetch cover (if no `cover` is provided)
+isbn: 0857197681 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: wealth-management financial-psychology
 tags: top-100
 buy_link: https://www.amazon.com.au/Psychology-Money-Morgan-Housel/dp/0857197681

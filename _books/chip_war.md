@@ -3,8 +3,8 @@ layout: book-review
 title: Chip War
 author: Chris Miller
 cover: 
-olid: OL38058519M # use Open Library ID to fetch cover (if no `cover` is provided)
-isbn: 9781982172008 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+olid: # use Open Library ID to fetch cover (if no `cover` is provided)
+isbn: 1982172002 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: nonfiction politics history semiconductors
 tags: top-100
 buy_link: https://www.amazon.com.au/Chip-War-Worlds-Critical-Technology/dp/1982172002
