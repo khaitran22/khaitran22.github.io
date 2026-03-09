@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: Material World\: The Six Raw Materials That Shape Modern Civilization
+title: Material World - The Six Raw Materials That Shape Modern Civilization
 author: Ed Conway
 cover: 
 olid: # use Open Library ID to fetch cover (if no `cover` is provided)
