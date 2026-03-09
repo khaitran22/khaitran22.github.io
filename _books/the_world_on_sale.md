@@ -9,9 +9,9 @@ categories: international-trade
 tags: economics, imports
 buy_link:
 started: 2025-12-05
-finished:
+finished: 2026-01-05
 released: 2021
 stars: 4.33
 goodreads_review: 52199304
-status: Reading
+status: Finished
 ---
