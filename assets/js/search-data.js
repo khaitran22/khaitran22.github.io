@@ -89,6 +89,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/chip_war/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/material_world/";
             },},{id: "books-the-psychology-of-money",
           title: 'The Psychology of Money',
           description: "",
