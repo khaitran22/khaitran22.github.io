@@ -89,8 +89,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/chip_war/";
-            },},{id: "books-",
-          title: '',
+            },},{id: "books-material-world-the-six-raw-materials-that-shape-modern-civilization",
+          title: 'Material World - The Six Raw Materials That Shape Modern Civilization',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/material_world/";
